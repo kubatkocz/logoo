@@ -1,0 +1,94 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #FFFFFF;
+  background: #8646FF;
+}
+
+::selection {
+  color: #FFFFFF;
+  background: #8646FF;
+}
+
+.btn-main {
+	font-size: 18;
+	letter-spacing: 1px;
+  	padding: 16px;
+  	background-color: #8646FF;
+  	color: #F5F5F9;
+  	border-radius: 0px;
+  	-ms-transform: skewX(-8deg); /* IE 9 */
+    -webkit-transform: skewX(-8deg); /* Safari */
+    transform: skewX(-8deg);
+    transition: all 500ms ease-in-out;
+}
+
+.btn-main .text {
+	font-family: 'Bangers', cursive;
+	-ms-transform: skewX(8deg); /* IE 9 */
+    -webkit-transform: skewX(8deg); /* Safari */
+    transform: skewX(8deg);
+}
+
+.btn-main:hover,
+.btn-main:active,
+.btn-main:focus,
+.btn-main:active {
+  	background: #FDCA00;
+  	color: #17105A;
+  	-ms-transform: skewX(5deg); /* IE 9 */
+    -webkit-transform: skewX(5deg); /* Safari */
+    transform: skewX(5deg);
+}
+
+.hero {
+	color: #FFFFFF;
+	background-image: url(img/bg.svg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right top;
+	background-size: auto;
+	background-color: #17105A;
+	min-height: 100vh;
+  	display: flex;
+  	align-items: center;
+  	margin-bottom: 100px;
+}
+
+.hero h1 {
+	font-family: 'Bangers', cursive;
+	font-size: 64px;
+	line-height: 68px;
+	letter-spacing: 1px;
+	padding-bottom: 24px;
+}
+
+.hero p {
+	padding-bottom: 32px;
+	margin: 0px;
+}
+
+
+/*sm*/
+@media only screen and  (max-width: 767.98px) {
+	.hero h1 {
+		font-size: 40px;
+		line-height: 42px;
+	}
+}
+
+/*md*/
+@media only screen and  (max-width: 991.98px) {
+
+}
+
+/*lg*/
+@media only screen and  (max-width: 1199.98px) {
+
+}
